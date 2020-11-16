@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/hasura-ttt/static/js/main.d4d84b46.chunk.js",
+    "main.js.map": "/hasura-ttt/static/js/main.d4d84b46.chunk.js.map",
+    "runtime-main.js": "/hasura-ttt/static/js/runtime-main.34b8ee3a.js",
+    "runtime-main.js.map": "/hasura-ttt/static/js/runtime-main.34b8ee3a.js.map",
+    "static/js/2.6905258d.chunk.js": "/hasura-ttt/static/js/2.6905258d.chunk.js",
+    "static/js/2.6905258d.chunk.js.map": "/hasura-ttt/static/js/2.6905258d.chunk.js.map",
+    "static/js/3.6ce8bc66.chunk.js": "/hasura-ttt/static/js/3.6ce8bc66.chunk.js",
+    "static/js/3.6ce8bc66.chunk.js.map": "/hasura-ttt/static/js/3.6ce8bc66.chunk.js.map",
+    "index.html": "/hasura-ttt/index.html",
+    "static/js/2.6905258d.chunk.js.LICENSE.txt": "/hasura-ttt/static/js/2.6905258d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.34b8ee3a.js",
+    "static/js/2.6905258d.chunk.js",
+    "static/js/main.d4d84b46.chunk.js"
+  ]
+}
