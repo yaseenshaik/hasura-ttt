@@ -110,7 +110,7 @@ function App() {
 
   useEffect(() => {
     if (currentState === State.XsTurn || currentState === State.OsTurn) {
-      const allPositions = [...xState, ...oState]
+      const allPositions = [...xState, ...oState];
       if (hasAllWinningStates(allWinningStates, xState)) {
         setCurrentState(State.GameOver);
         alert("X won");
