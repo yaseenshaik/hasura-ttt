@@ -109,16 +109,20 @@ function App() {
   const [oState, setOState] = useState<PlayerState>([]);
 
   useEffect(() => {
-    if (currentState !== State.GameOver) {
+    if (currentState === State.XsTurn || currentState === State.OsTurn) {
+      const allPositions = [...xState, ...oState]
       if (hasAllWinningStates(allWinningStates, xState)) {
         setCurrentState(State.GameOver);
         alert("X won");
       } else if (hasAllWinningStates(allWinningStates, oState)) {
         setCurrentState(State.GameOver);
         alert("O won");
+      } else if (Math.pow(size, 2) === allPositions.length) {
+        setCurrentState(State.GameOver);
+        alert("Draw");
       }
     }
-  }, [currentState, allWinningStates, xState, oState]);
+  }, [currentState, allWinningStates, xState, oState, size]);
 
   const startGame = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
